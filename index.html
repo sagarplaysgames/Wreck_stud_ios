@@ -13,16 +13,16 @@
   
   <header>
     <nav>
-      <section id='nav-right'>
+      <section id='nav-left'>
         <img src="#" alt="logo of web" />
       </section>
       
-      <section id="nav-left">
+      <section id="nav-right">
         <ul>
           
-          <li><button> menu </button></li>
+          <li><button onclick="mdw()"> menu </button></li>
           
-          <li><button> accounts </button></li>
+          <li><button onclick="adw()"> accounts </button></li>
           
         </ul>
       </section>
@@ -30,10 +30,12 @@
     <div id="menu-drop-down">
       <a href="#">Settings</a>
       <button >dark mode</button>
+      <button onclick="mdw_close()">X</button>
     </div>
     <div id="accounts-drop-down">
       <a href="#">Signup</a>
       <a href="#">Login</a>
+      <button onclick="adw_close()">X</button>
     </div>
   </header>
   

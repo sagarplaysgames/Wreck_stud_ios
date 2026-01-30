@@ -1,0 +1,36 @@
+body{
+  background-color: #B5B6C4;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: #1A26CE;
+  display: flex;
+}
+#nav-right{
+  padding-left: 70%;
+}
+
+#nav-right ul{
+  display: flex;
+  list-style: none;
+  display: flex;
+}
+
+#nav-right ul li{
+  padding-left: 7%;
+}
+
+#menu-drop-down {
+  display :none;
+  padding-left:80%;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+#accounts-drop-down {
+  display: none;
+   padding-left: 90%;
+   margin: 0;
+   background-color: #FFFFFF;
+ }
