@@ -23,14 +23,35 @@ nav{
 
 #menu-drop-down {
   display :none;
-  padding-left:80%;
   background-color: #FFFFFF;
-  margin: 0;
+  margin-left:80%;
+  text-align: center;
+  border-radius: 7%;
 }
 
 #accounts-drop-down {
   display: none;
-   padding-left: 90%;
-   margin: 0;
-   background-color: #FFFFFF;
+  text-align: center;
+  margin-left: 80%;
+  background-color: #FFFFFF;
+  border-radius: 7%;
+ }
+ 
+ #accounts-drop-down a, #menu-drop-down a{
+   color: #000000;
+   text-decoration: none;
+   padding-top: 4%;
+   padding-bottom: 3%;
+ }
+ 
+ #accounts-drop-down button, #menu-drop-down button{
+   padding-top: 4%;
+   -bottom: 3%;
+   border: none;
+   background-color: #ffffff;
+ }
+ 
+ #accounts-drop-down button:hover, #menu-drop-down button:hover,#accounts-drop-down a:hover, #menu-drop-down a:hover{
+   background-color: #1A26CE;
+   color: #FFFFFF;
  }
