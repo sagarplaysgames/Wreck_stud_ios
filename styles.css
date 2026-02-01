@@ -46,7 +46,7 @@ nav{
  
  #accounts-drop-down button, #menu-drop-down button{
    padding-top: 4%;
-   -bottom: 3%;
+   padding-bottom: 3%;
    border: none;
    background-color: #ffffff;
  }
